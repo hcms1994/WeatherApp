@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/city_selected_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理城市"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:src="@drawable/news_list_line" />
+
+    <ListView
+        android:id="@+id/city_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="true">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:src="@drawable/news_list_line" />
+
+        <ImageButton
+            android:id="@+id/add_city"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/add_city3"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:text="添加城市"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

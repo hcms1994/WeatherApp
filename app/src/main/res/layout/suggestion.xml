@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/suggestion_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#FFC0CB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生活指数"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/suggestion_air"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="运动建议：天气较好，但由于风力较大，推荐您在室内进行低强度运动，若在户外运动请注意避风"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/suggestion_comfort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="舒适度：白天天气晴好，明媚的阳光在给您带来好心情的同时，也会使您感到有些热，不很舒适"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/suggestion_wash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="洗车指数：较不宜洗车，未来一天无雨，风力较大，如果执意擦洗汽车，要做好蒙上污垢的心理准备"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/suggestion_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="运动建议：天气较好，但由于风力较大，推荐您在室内进行低强度运动，若在户外运动请注意避风"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+    android:id="@+id/suggestion_trav"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="运动建议：天气较好，但由于风力较大，推荐您在室内进行低强度运动，若在户外运动请注意避风"
+    android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/suggestion_flu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="感冒指数：天气较好，但由于风力较大，推荐您在室内进行低强度运动，若在户外运动请注意避风"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/suggestion_uv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="紫外线指数：天气较好，但由于风力较大，推荐您在室内进行低强度运动，若在户外运动请注意避风"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

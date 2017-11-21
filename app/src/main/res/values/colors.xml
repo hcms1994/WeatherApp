@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BFFF</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark">#afeeee</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myColor">#227799</color>
+    <color name="myColor1">#278CDE</color>
+    <color name="trans_color">#8000</color>
+    <color name="title_color">#00BFFF</color>
+    <color name="now_color">#F0E68C</color>
+    <color name="pre_color">#98FB98</color>
+    <color name="wind_color">#F0E68C</color>
+    <color name="aqi_color">#87CEEB</color>
+    <color name="suggestion_color">#FFC0CB</color>
+</resources>

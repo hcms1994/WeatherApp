@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后台设置"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/news_list_line" />
+<RelativeLayout
+    android:id="@+id/layout_aotoupdate"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自动更新"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"/>
+
+    <Switch
+        android:id="@+id/time_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/news_list_line" />
+
+    <RelativeLayout
+        android:id="@+id/layout_updatetime"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/update_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新间隔"
+            android:textSize="24sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1小时"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_toLeftOf="@+id/time_select"
+            android:layout_marginRight="24dp"/>
+
+        <ImageButton
+            android:id="@+id/time_select"
+            android:background="@android:color/transparent"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/news_cate_arr"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/news_list_line" />
+
+    <RelativeLayout
+        android:id="@+id/layout_updateimage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="背景图片"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true"/>
+
+        <Switch
+            android:id="@+id/image_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/switch_thumb"
+            android:track="@drawable/switch_track"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/news_list_line" />
+
+</LinearLayout>
